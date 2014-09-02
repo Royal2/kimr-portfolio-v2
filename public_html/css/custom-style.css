@@ -1,0 +1,75 @@
+div{
+    padding: 15px;
+}
+
+.container-fluid{
+    background-color: #666666;
+}
+
+.container{
+    background-color: #666666;
+    border-color: black;
+}
+
+.row{
+    
+}
+
+//Frame
+#header{
+    border-color: red;
+}
+
+#heading{
+    background-color: #333333;
+    color: #CCCCCC;
+    //opacity: 0.4;
+    //filter: alpha(opacity=40);
+    //background-color: rgba(255,0,0,0.3)
+}
+
+//font-family: 'Yanone Kaffeesatz', sans-serif;
+  //          font-family: 'Nothing You Could Do', cursive;
+    //        font-family: 'Nova Square', cursive;
+      //      font-family: 'Sue Ellen Francisco', cursive;
+        //    font-family: 'Audiowide', cursive;
+#rowheading{
+    margin: 30px 0px 30px 0px;
+}
+
+h1{
+    font-family: 'Nova Square', cursive;
+    font-size: 60px;
+}
+
+h2{
+    font-family: 'Nova Square', cursive;
+    font-size: 40px;
+}
+
+#navigation{
+    margin: -15px 0px -15px -15px;
+    width: 1170px;
+}
+
+#tabmod{
+    background-color: #CCCCCC;
+    color: #333333;
+    font-family: 'Nova Square', cursive;
+}
+
+#content{
+    //background-color: rgba(49, 49, 53, 0.7);
+    //background-color: rgba(0, 0, 0, 0.6);
+    background-color: #999999;
+}
+
+#row{
+    margin: 15px 0px 0px 0px;
+}
+
+#footer{
+    background-color: #333333;
+    padding: 20px 0px 20px 0px;
+    color: #CCCCCC;
+}
