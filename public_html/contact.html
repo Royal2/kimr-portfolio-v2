@@ -79,8 +79,7 @@ and open the template in the editor.
                         <li class="active"><a href="index.html">About Me</a></li>
                         <li><a href="projects.html">Projects</a></li>
                         <li><a href="technology.html">Technology</a></li>
-                        <li><a href="contact.html"><span class="glyphicon glyphicon-envelope">Contact</span></a></li>
-                      </ul>
+                    </ul>
                 </div>
                 <div id="content" class="col-xs-12">
                     <div id="row" class="col-xs-12">
@@ -99,19 +98,39 @@ and open the template in the editor.
                                     <center>
                                         <table>
                                             <tr>
-                                                <td><input type='text' name='name' placeholder='Name'></td>
+                                                <td>
+                                                    <div class="input-group input-group">
+                                                        <span class="input-group-addon glyphicon glyphicon-user"></span>
+                                                        <input type="text" class="form-control" name="username" placeholder="Username">
+                                                    </div>
+                                                </td>
                                             </tr>
                                             <td><br></td>
                                             <tr>
-                                                <td><input type='text' name='email' placeholder='Email'></td>
+                                                <td>
+                                                    <div class="input-group input-group">
+                                                        <span class="input-group-addon">@</span>
+                                                        <input type="text" class="form-control" name="email" placeholder="Email">
+                                                    </div>
+                                                </td>
                                             </tr>
                                             <td><br></td>
                                             <tr>
-                                                <td><input type='text' name='subject' placeholder='Subject'></td>
+                                                <td>
+                                                    <div class="input-group input-group">
+                                                        <span class="input-group-addon glyphicon glyphicon-pencil"></span>
+                                                        <input type="text" class="form-control" name="subject" placeholder="Subject">
+                                                    </div>
+                                                </td>
                                             </tr>
                                             <td><br></td>
                                             <tr>
-                                                <td><textarea name='message' placeholder='Message...'></textarea></td>
+                                                <td>
+                                                    <div class="input-group input-group">
+                                                        <span class="input-group-addon glyphicon glyphicon-envelope"></span>
+                                                        <textarea class="form-control" name='message' placeholder='Message...'></textarea>
+                                                    </div>
+                                                </td>
                                             </tr>
                                             <tr>
                                                 <td><input type='submit'></td>
